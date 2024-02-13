@@ -76,11 +76,6 @@ const StyledItem = styled(MenuItem)(({ theme }) => ({
   '& span': { marginRight: '10px', color: theme.palette.text.primary }
 }));
 
-const IconBox = styled('div')(({ theme }) => ({
-  display: 'inherit',
-  [theme.breakpoints.down('md')]: { display: 'none !important' }
-}));
-
 const Layout1Topbar = () => {
   const theme = useTheme();
   const { settings, updateSettings } = useSettings();
@@ -105,24 +100,12 @@ const Layout1Topbar = () => {
   return (
     <TopbarRoot>
       <TopbarContainer>
-        <Box display="flex">
-          <StyledIconButton onClick={handleSidebarToggle}>
-            <Icon>menu</Icon>
-          </StyledIconButton>
+        <StyledIconButton onClick={handleSidebarToggle}>
+          <Icon>menu</Icon>
+        </StyledIconButton>
 
-          <IconBox>
-            <StyledIconButton>
-              <Icon>mail_outline</Icon>
-            </StyledIconButton>
-
-            <StyledIconButton>
-              <Icon>web_asset</Icon>
-            </StyledIconButton>
-
-            <StyledIconButton>
-              <Icon>star_outline</Icon>
-            </StyledIconButton>
-          </IconBox>
+        <Box display="flex" alignItems="center">
+          <h4>MAINNET</h4>
         </Box>
 
         <Box display="flex" alignItems="center">

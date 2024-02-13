@@ -19,10 +19,7 @@ import BadgeSelected from './BadgeSelected';
 import { themeColors, themeShadows } from '../MatxTheme/themeColors';
 import { mainSidebarThemes, topbarThemes } from './customizerOptions';
 
-const sidebarBG = [
-  '/assets/images/sidebar/sidebar-bg-dark.jpg',
-  '/assets/images/sidebar/sidebar-bg-light.jpg'
-];
+const sidebarBG = ['/assets/images/sidebar/sidebar-bg-light.jpg'];
 
 const ThemeName = styled('div')(({ theme }) => ({
   marginBottom: '16px',

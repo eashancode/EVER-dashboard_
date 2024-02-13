@@ -2,24 +2,31 @@ const textLight = {
   primary: 'rgba(52, 49, 76, 1)',
   secondary: 'rgba(52, 49, 76, 0.54)',
   disabled: 'rgba(52, 49, 76, 0.38)',
-  hint: 'rgba(52, 49, 76, 0.38)',
+  hint: 'rgba(52, 49, 76, 0.38)'
+};
+
+const textLightGreen = {
+  primary: '#102737',
+  secondary: 'rgba(52, 49, 76, 0.54)',
+  disabled: 'rgba(52, 49, 76, 0.38)',
+  hint: 'rgba(52, 49, 76, 0.38)'
 };
 
 const textDark = {
   primary: '#fff',
   secondary: 'rgba(255, 255, 255, 0.7)',
   disabled: 'rgba(255, 255, 255, 0.64)',
-  hint: 'rgba(255, 255, 255, 0.64)',
+  hint: 'rgba(255, 255, 255, 0.64)'
 };
 
 const secondaryColor = {
   light: '#f9a352',
   main: '#ff9e43',
   dark: '#ff932e',
-  contrastText: textLight.primary,
+  contrastText: textLight.primary
 };
 const errorColor = {
-  main: '#FF3D57',
+  main: '#FF3D57'
 };
 
 export const themeColors = {
@@ -28,202 +35,237 @@ export const themeColors = {
       type: 'light',
       primary: {
         main: '#ffffff',
-        contrastText: textLight.primary,
+        contrastText: textLight.primary
       },
       secondary: {
         main: '#7467ef',
-        contrastText: '#ffffff',
+        contrastText: '#ffffff'
       },
       background: {
         paper: '#fff',
-        default: '#fafafa',
+        default: '#fafafa'
       },
       error: errorColor,
-      text: textLight,
-    },
+      text: textLight
+    }
   },
   whiteBlue: {
     palette: {
       type: 'light',
       primary: {
         main: '#ffffff',
-        contrastText: textLight.primary,
+        contrastText: textLight.primary
       },
       secondary: {
         main: '#1976d2',
-        contrastText: '#ffffff',
+        contrastText: '#ffffff'
       },
       background: {
         paper: '#fff',
-        default: '#fafafa',
+        default: '#fafafa'
       },
-      text: textLight,
-    },
+      text: textLight
+    }
   },
   slateDark1: {
     palette: {
       type: 'dark',
       primary: {
         main: '#222A45',
-        contrastText: '#ffffff',
+        contrastText: '#ffffff'
       },
       secondary: {
         main: '#ff9e43',
-        contrastText: textLight.primary,
+        contrastText: textLight.primary
       },
       error: errorColor,
       background: {
         paper: '#222A45',
-        default: '#1a2038',
+        default: '#1a2038'
       },
-      text: textDark,
-    },
+      text: textDark
+    }
   },
   slateDark2: {
     palette: {
       type: 'dark',
       primary: {
         main: '#1a2038',
-        contrastText: '#ffffff',
+        contrastText: '#ffffff'
       },
       secondary: {
         main: '#ff9e43',
-        contrastText: textLight.primary,
+        contrastText: textLight.primary
       },
       error: errorColor,
       background: {
         paper: '#222A45',
-        default: '#1a2038',
+        default: '#1a2038'
       },
-      text: textDark,
-    },
+      text: textDark
+    }
   },
   purple1: {
     palette: {
       type: 'light',
       primary: {
         main: '#7467ef',
-        contrastText: '#ffffff',
+        contrastText: '#ffffff'
       },
       secondary: secondaryColor,
       error: errorColor,
       background: {
         paper: '#fff',
-        default: '#fafafa',
+        default: '#fafafa'
       },
-      text: textLight,
-    },
+      text: textLight
+    }
   },
   purple2: {
     palette: {
       type: 'light',
       primary: {
         main: '#6a75c9',
-        contrastText: '#ffffff',
+        contrastText: '#ffffff'
       },
       secondary: {
         main: '#ff9e43',
-        contrastText: textLight.primary,
+        contrastText: textLight.primary
       },
       error: errorColor,
       background: {
         paper: '#fff',
-        default: '#fafafa',
+        default: '#fafafa'
       },
-      text: textLight,
-    },
+      text: textLight
+    }
   },
   purpleDark1: {
     palette: {
       type: 'dark',
       primary: {
         main: '#7467ef',
-        contrastText: '#ffffff',
+        contrastText: '#ffffff'
       },
       secondary: {
         main: '#ff9e43',
-        contrastText: textLight.primary,
+        contrastText: textLight.primary
       },
       error: errorColor,
       background: {
         paper: '#222A45',
-        default: '#1a2038',
+        default: '#1a2038'
       },
-      text: textDark,
-    },
+      text: textDark
+    }
   },
   purpleDark2: {
     palette: {
       type: 'dark',
       primary: {
         main: '#6a75c9',
-        contrastText: '#ffffff',
+        contrastText: '#ffffff'
       },
       secondary: {
         main: '#ff9e43',
-        contrastText: textLight.primary,
+        contrastText: textLight.primary
       },
       error: errorColor,
       background: {
         paper: '#222A45',
-        default: '#1a2038',
+        default: '#1a2038'
       },
-      text: textDark,
-    },
+      text: textDark
+    }
   },
   blue: {
     palette: {
       type: 'light',
       primary: {
         main: '#1976d2',
-        contrastText: '#ffffff',
+        contrastText: '#ffffff'
       },
       secondary: {
         main: '#FFAF38',
-        contrastText: textLight.primary,
+        contrastText: textLight.primary
       },
       error: errorColor,
       background: {
         paper: '#fff',
-        default: '#fafafa',
+        default: '#fafafa'
       },
-      text: textLight,
-    },
+      text: textLight
+    }
   },
   blueDark: {
     palette: {
       type: 'dark',
       primary: {
         main: '#1976d2',
-        contrastText: '#ffffff',
+        contrastText: '#ffffff'
       },
       secondary: {
         main: '#FF4F30',
-        contrastText: textLight.primary,
+        contrastText: textLight.primary
       },
       error: errorColor,
       background: {
         paper: '#222A45',
-        default: '#1a2038',
+        default: '#1a2038'
       },
-      text: textDark,
-    },
+      text: textDark
+    }
   },
   red: {
     palette: {
       type: 'dark',
       primary: {
         main: '#e53935',
-        contrastText: '#ffffff',
+        contrastText: '#ffffff'
       },
       secondary: {
         main: '#FFAF38',
-        contrastText: textLight.primary,
+        contrastText: textLight.primary
       },
       error: errorColor,
-      text: textDark,
-    },
+      text: textDark
+    }
   },
+
+  green: {
+    palette: {
+      type: 'light',
+      primary: {
+        main: '#41c3a9',
+        contrastText: '#102737'
+      },
+      secondary: {
+        main: '#FFAF38',
+        contrastText: textLight.primary
+      },
+      error: errorColor,
+      text: textDark
+    }
+  },
+
+  whiteGreen: {
+    palette: {
+      type: 'light',
+      primary: {
+        main: '#ffffff',
+        contrastText: textLight.primary
+      },
+      secondary: {
+        main: '#41c3a9',
+        contrastText: '#ffffff'
+      },
+      background: {
+        paper: '#fff',
+        default: '#fafafa'
+      },
+      text: textLightGreen
+    }
+  }
 };
 
 export const themeShadows = [
@@ -251,5 +293,5 @@ export const themeShadows = [
   '0px 10px 13px -6px rgba(0, 0, 0, 0.06),0px 20px 31px 3px rgba(0, 0, 0, 0.042),0px 8px 38px 7px rgba(0, 0, 0, 0.036)',
   '0px 10px 13px -6px rgba(0, 0, 0, 0.06),0px 20px 31px 3px rgba(0, 0, 0, 0.042),0px 8px 38px 7px rgba(0, 0, 0, 0.036)',
   '0px 10px 13px -6px rgba(0, 0, 0, 0.06),0px 20px 31px 3px rgba(0, 0, 0, 0.042),0px 8px 38px 7px rgba(0, 0, 0, 0.036)',
-  '0px 10px 13px -6px rgba(0, 0, 0, 0.06),0px 20px 31px 3px rgba(0, 0, 0, 0.042),0px 8px 38px 7px rgba(0, 0, 0, 0.036)',
+  '0px 10px 13px -6px rgba(0, 0, 0, 0.06),0px 20px 31px 3px rgba(0, 0, 0, 0.042),0px 8px 38px 7px rgba(0, 0, 0, 0.036)'
 ];
